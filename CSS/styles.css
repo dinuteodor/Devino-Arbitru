@@ -1,0 +1,123 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfd; /* White background */
+    color: #333; /* Text color */
+  }
+  
+  nav {
+    background-color: transparent; /* Dark Green */
+    color: #01796f; /* Text color */
+    padding: 10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    letter-spacing: 2.5px;
+    text-transform: lowercase;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  header {
+    background: url("header.jpg") top/cover no-repeat;
+    text-align: center;
+    height: 100vh;
+  }
+  /* Other existing styles */
+  
+  .green {
+    overflow: hidden;
+  }
+  
+  .content {
+    width: 45%; /* Adjust as needed */
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .image {
+    width: 60%; /* Adjust as needed */
+    display: block;
+    vertical-align: top;
+  }
+  
+  .image img {
+    width: 100%; /* Ensure the image fills its container */
+    display: block; /* Remove any default inline-block spacing */
+    border-radius: 5px; /* If you want rounded corners */
+    /* Additional styles as per your design */
+  }
+  
+  header h1,
+  header p {
+    color: #01796f; /* Text color */
+    letter-spacing: -0.5px;
+  }
+  .content {
+    width: 48%; /* Adjust as needed */
+  }
+  .image {
+    width: 48%; /* Adjust as needed */
+  }
+  .fotbal {
+    border-radius: 5px; /* If you want rounded corners */
+  height: auto;
+  max-width: 50%;
+  width: 250px;
+  }
+  section hr {
+    margin-left: 0px;
+    width: 55px;
+  }
+  
+  section > div {
+    margin: auto;
+    max-width: 80%;
+    padding: 50px;
+    width: 1440px;
+  }
+  
+  section.green {
+    background-color: #01796f; /* Dark Green */
+    color: white;
+  }
+  section {
+    background-color: #fff; /* Light green background */
+    color: #333; /* Text color */
+    margin: 20px 0;
+  }
+  
+  footer {
+    background-color: #000000; /* Dark Green */
+    color: #fbfbfd; /* Text color */
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .row {
+    overflow: auto;
+  }
+  
+  .column {
+    width: 100%;
+    float: left;
+  }
+  
+  .center {
+    text-align:center;
+  }  
